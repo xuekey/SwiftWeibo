@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		180573B2235C12300017B379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573B1235C12300017B379 /* AppDelegate.swift */; };
-		180573B6235C12300017B379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180573B5235C12300017B379 /* ViewController.swift */; };
-		180573B9235C12300017B379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180573B7235C12300017B379 /* Main.storyboard */; };
 		180573BB235C12310017B379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180573BA235C12310017B379 /* Assets.xcassets */; };
 		180573BE235C12310017B379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180573BC235C12310017B379 /* LaunchScreen.storyboard */; };
+		180573C7235C14C90017B379 /* lau.png in Resources */ = {isa = PBXBuildFile; fileRef = 180573C6235C14C90017B379 /* lau.png */; };
+		18057425235C49EE0017B379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18057424235C49EE0017B379 /* Main.storyboard */; };
+		18057435235C58B70017B379 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18057434235C58B70017B379 /* Home.storyboard */; };
+		18057437235C58D00017B379 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18057436235C58D00017B379 /* Message.storyboard */; };
+		18057439235C58E20017B379 /* Null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18057438235C58E20017B379 /* Null.storyboard */; };
+		1805743B235C58F20017B379 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805743A235C58F20017B379 /* Discover.storyboard */; };
+		1805743D235C590D0017B379 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1805743C235C590D0017B379 /* Profile.storyboard */; };
+		18057441235C5E4D0017B379 /* WBTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18057440235C5E4D0017B379 /* WBTabbarController.swift */; };
+		18057443235C82BF0017B379 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18057442235C82BF0017B379 /* UIButton-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		180573AE235C12300017B379 /* SwiftWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180573B1235C12300017B379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		180573B5235C12300017B379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		180573B8235C12300017B379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180573BA235C12310017B379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180573BD235C12310017B379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180573BF235C12310017B379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180573C6235C14C90017B379 /* lau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lau.png; sourceTree = "<group>"; };
+		18057424235C49EE0017B379 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18057434235C58B70017B379 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		18057436235C58D00017B379 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		18057438235C58E20017B379 /* Null.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Null.storyboard; sourceTree = "<group>"; };
+		1805743A235C58F20017B379 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		1805743C235C590D0017B379 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		18057440235C5E4D0017B379 /* WBTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBTabbarController.swift; sourceTree = "<group>"; };
+		18057442235C82BF0017B379 /* UIButton-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,317 @@
 		180573B0235C12300017B379 /* SwiftWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				180573C8235C14ED0017B379 /* Classes */,
+				180573C5235C14BC0017B379 /* image */,
 				180573B1235C12300017B379 /* AppDelegate.swift */,
-				180573B5235C12300017B379 /* ViewController.swift */,
-				180573B7235C12300017B379 /* Main.storyboard */,
 				180573BA235C12310017B379 /* Assets.xcassets */,
+				18057424235C49EE0017B379 /* Main.storyboard */,
+				18057438235C58E20017B379 /* Null.storyboard */,
 				180573BC235C12310017B379 /* LaunchScreen.storyboard */,
 				180573BF235C12310017B379 /* Info.plist */,
 			);
 			path = SwiftWeibo;
+			sourceTree = "<group>";
+		};
+		180573C5235C14BC0017B379 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				180573C6235C14C90017B379 /* lau.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		180573C8235C14ED0017B379 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				180573D6235C15490017B379 /* Main(主要) */,
+				1805740A235C15D20017B379 /* Home(首页) */,
+				180573FD235C15840017B379 /* Message(消息) */,
+				180573E0235C154A0017B379 /* Discover(发现) */,
+				180573F0235C154F0017B379 /* Profile(我的) */,
+				18057417235C15D70017B379 /* Other(其他) */,
+				180573C9235C14ED0017B379 /* AD(广告) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		180573C9235C14ED0017B379 /* AD(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				180573CA235C14ED0017B379 /* NetHttp */,
+				180573CB235C14ED0017B379 /* Controller */,
+				180573CF235C14ED0017B379 /* Model */,
+				180573D2235C14ED0017B379 /* View */,
+			);
+			path = "AD(广告)";
+			sourceTree = "<group>";
+		};
+		180573CA235C14ED0017B379 /* NetHttp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetHttp;
+			sourceTree = "<group>";
+		};
+		180573CB235C14ED0017B379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		180573CF235C14ED0017B379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180573D2235C14ED0017B379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180573D6235C15490017B379 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				180573D7235C15490017B379 /* NetHttp */,
+				180573D8235C15490017B379 /* Controller */,
+				180573DC235C154A0017B379 /* Model */,
+				180573DF235C154A0017B379 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		180573D7235C15490017B379 /* NetHttp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetHttp;
+			sourceTree = "<group>";
+		};
+		180573D8235C15490017B379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18057440235C5E4D0017B379 /* WBTabbarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		180573DC235C154A0017B379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180573DF235C154A0017B379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180573E0235C154A0017B379 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				180573E1235C154A0017B379 /* NetHttp */,
+				180573E2235C154A0017B379 /* Controller */,
+				180573E6235C154A0017B379 /* Model */,
+				180573E9235C154A0017B379 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		180573E1235C154A0017B379 /* NetHttp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetHttp;
+			sourceTree = "<group>";
+		};
+		180573E2235C154A0017B379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1805743A235C58F20017B379 /* Discover.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		180573E6235C154A0017B379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180573E9235C154A0017B379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180573F0235C154F0017B379 /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				180573F1235C154F0017B379 /* NetHttp */,
+				180573F2235C154F0017B379 /* Controller */,
+				180573F6235C154F0017B379 /* Model */,
+				180573F9235C154F0017B379 /* View */,
+			);
+			path = "Profile(我的)";
+			sourceTree = "<group>";
+		};
+		180573F1235C154F0017B379 /* NetHttp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetHttp;
+			sourceTree = "<group>";
+		};
+		180573F2235C154F0017B379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1805743C235C590D0017B379 /* Profile.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		180573F6235C154F0017B379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		180573F9235C154F0017B379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180573FD235C15840017B379 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				180573FE235C15840017B379 /* NetHttp */,
+				180573FF235C15840017B379 /* Controller */,
+				18057403235C15840017B379 /* Model */,
+				18057406235C15840017B379 /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		180573FE235C15840017B379 /* NetHttp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetHttp;
+			sourceTree = "<group>";
+		};
+		180573FF235C15840017B379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18057436235C58D00017B379 /* Message.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18057403235C15840017B379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18057406235C15840017B379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1805740A235C15D20017B379 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				1805740B235C15D20017B379 /* NetHttp */,
+				1805740C235C15D20017B379 /* Controller */,
+				18057410235C15D20017B379 /* Model */,
+				18057413235C15D20017B379 /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		1805740B235C15D20017B379 /* NetHttp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetHttp;
+			sourceTree = "<group>";
+		};
+		1805740C235C15D20017B379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18057434235C58B70017B379 /* Home.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18057410235C15D20017B379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18057413235C15D20017B379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18057417235C15D70017B379 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				18057418235C15D70017B379 /* Category */,
+				18057419235C15D70017B379 /* Controller */,
+				1805741D235C15D70017B379 /* Model */,
+				18057420235C15D70017B379 /* View */,
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		18057418235C15D70017B379 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18057442235C82BF0017B379 /* UIButton-Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18057419235C15D70017B379 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1805741D235C15D70017B379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18057420235C15D70017B379 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +439,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18057439235C58E20017B379 /* Null.storyboard in Resources */,
+				1805743B235C58F20017B379 /* Discover.storyboard in Resources */,
 				180573BE235C12310017B379 /* LaunchScreen.storyboard in Resources */,
+				18057435235C58B70017B379 /* Home.storyboard in Resources */,
+				180573C7235C14C90017B379 /* lau.png in Resources */,
 				180573BB235C12310017B379 /* Assets.xcassets in Resources */,
-				180573B9235C12300017B379 /* Main.storyboard in Resources */,
+				1805743D235C590D0017B379 /* Profile.storyboard in Resources */,
+				18057437235C58D00017B379 /* Message.storyboard in Resources */,
+				18057425235C49EE0017B379 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +458,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180573B6235C12300017B379 /* ViewController.swift in Sources */,
+				18057441235C5E4D0017B379 /* WBTabbarController.swift in Sources */,
+				18057443235C82BF0017B379 /* UIButton-Extension.swift in Sources */,
 				180573B2235C12300017B379 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +467,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		180573B7235C12300017B379 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				180573B8235C12300017B379 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		180573BC235C12310017B379 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +598,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +616,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
