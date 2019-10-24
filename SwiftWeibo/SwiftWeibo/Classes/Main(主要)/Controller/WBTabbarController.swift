@@ -32,6 +32,7 @@ extension WBTabbarController{
   func setupComposeBtn(){
     
     composeBtn.center = CGPoint(x: tabBar.center.x,y: self.tabBar.bounds.size.height*0.5)
+    composeBtn.addTarget(self, action:#selector(composeBtnClick), for: .touchUpInside)
     tabBar.addSubview(composeBtn)
     
   }//
@@ -39,4 +40,13 @@ extension WBTabbarController{
  
   
   
+}
+
+///事件监听
+extension WBTabbarController {
+  
+  ///中间按钮点击
+  @objc private func composeBtnClick(){
+    
+  }
 }

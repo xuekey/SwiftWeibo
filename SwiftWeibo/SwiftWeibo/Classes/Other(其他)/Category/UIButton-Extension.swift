@@ -11,14 +11,7 @@ import UIKit
 extension UIButton {
   class func createButton(imageName:String ,bgImageName:String)->(UIButton){
     
-    let btn = UIButton()
-    btn.setBackgroundImage(UIImage.init(named: imageName), for: .normal)
-    btn.setBackgroundImage(UIImage.init(named: imageName+"_highlighted"), for: .highlighted)
-    btn.setImage(UIImage.init(named: bgImageName), for: .normal)
-    btn.setImage(UIImage.init(named: bgImageName+"_highlighted"), for: .highlighted)
-       
-    btn.sizeToFit()
-    
+    let btn = UIButton(imageName: imageName, bgImageName: bgImageName)
     return btn;
   }
   

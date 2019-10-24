@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WOPopViewController" customModule="SwiftWeibo" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popover_background" translatesAutoresizingMaskIntoConstraints="NO" id="NgM-2T-DX5">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dbh-0t-1Sd">
+                    <rect key="frame" x="20" y="64" width="374" height="812"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dbh-0t-1Sd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="2r3-gB-Y3A"/>
+                <constraint firstItem="dbh-0t-1Sd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3J6-W8-s43"/>
+                <constraint firstItem="NgM-2T-DX5" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="4EF-Do-8OW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dbh-0t-1Sd" secondAttribute="trailing" constant="20" id="a6d-gS-Rhe"/>
+                <constraint firstItem="NgM-2T-DX5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="b2h-FB-RMT"/>
+                <constraint firstAttribute="bottom" secondItem="dbh-0t-1Sd" secondAttribute="bottom" constant="20" id="c8J-L4-y0l"/>
+                <constraint firstItem="NgM-2T-DX5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cDb-bz-f6n"/>
+                <constraint firstAttribute="bottom" secondItem="NgM-2T-DX5" secondAttribute="bottom" id="jio-ns-2im"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="popover_background" width="217" height="49"/>
+    </resources>
+</document>
